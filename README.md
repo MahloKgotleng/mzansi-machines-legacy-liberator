@@ -16,3 +16,30 @@ JSE Top 40 mining companies run on **30-year-old COBOL systems** with zero docum
 **IBM Bob** reverse-engineers undocumented legacy code, auto-generates POPIA compliance layers and builds MCP bridges to modern APIs — in days, not years.
 
 ## 🏗️ Architecture
+
+
+## 📁 Repository Structure
+
+| Folder | Purpose |
+|--------|---------|
+| `legacy/` | Synthetic COBOL for analysis |
+| `bob_sessions/` | Bob IDE task exports for judging |
+| `docs/` | watsonx.ai screenshots, architecture docs |
+| `src/` | Generated Python code (Phases 2–3) |
+| `datasets/` | Data files |
+
+## 💻 Technology Stack
+
+- **IBM Bob IDE** — Core analysis and code generation
+- **watsonx.ai (Granite)** — Synthetic COBOL generation
+- **watsonx Orchestrate** — Workflow orchestration (Phase 4)
+- **Python 3.12+** — Generated backend code
+
+## 📞 Contact
+
+**Mzansi Machines**  
+Built by an IBM Partner Plus registered team.
+
+---
+
+*All data is synthetic. No client data used. POPIA compliance demonstrated for educational purposes.*
